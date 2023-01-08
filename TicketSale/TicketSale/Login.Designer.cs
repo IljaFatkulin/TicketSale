@@ -30,12 +30,12 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.bRegister = new System.Windows.Forms.Button();
             this.bContinue = new System.Windows.Forms.Button();
             this.tbPass = new System.Windows.Forms.TextBox();
             this.tbLogin = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +76,25 @@
             this.panel1.Size = new System.Drawing.Size(437, 287);
             this.panel1.TabIndex = 2;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(198, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 15);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Password";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(208, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Login";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // bRegister
             // 
             this.bRegister.Location = new System.Drawing.Point(33, 217);
@@ -99,10 +118,12 @@
             // tbPass
             // 
             this.tbPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.tbPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbPass.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tbPass.Location = new System.Drawing.Point(151, 131);
             this.tbPass.MinimumSize = new System.Drawing.Size(0, 50);
             this.tbPass.Name = "tbPass";
+            this.tbPass.PasswordChar = '●';
             this.tbPass.Size = new System.Drawing.Size(153, 50);
             this.tbPass.TabIndex = 2;
             this.tbPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -110,7 +131,7 @@
             // tbLogin
             // 
             this.tbLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.tbLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbLogin.Location = new System.Drawing.Point(151, 50);
             this.tbLogin.Margin = new System.Windows.Forms.Padding(0);
             this.tbLogin.MinimumSize = new System.Drawing.Size(0, 50);
@@ -118,25 +139,7 @@
             this.tbLogin.Size = new System.Drawing.Size(153, 50);
             this.tbLogin.TabIndex = 1;
             this.tbLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(208, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 15);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Login";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(198, 113);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 15);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Password";
+            this.tbLogin.TextChanged += new System.EventHandler(this.tbLogin_TextChanged);
             // 
             // Login
             // 
@@ -145,10 +148,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(228)))), ((int)(((byte)(228)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Login";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "TicketSale";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

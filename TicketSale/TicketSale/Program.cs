@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace TicketSale
 {
     internal static class Program
