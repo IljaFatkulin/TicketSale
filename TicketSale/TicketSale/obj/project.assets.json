@@ -56,19 +56,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\iljaf\\.nuget\\packages\\": {}
+    "C:\\Users\\Platon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\TicketSale.csproj",
+      "projectUniqueName": "C:\\Users\\Platon\\Desktop\\TicketSale\\TicketSale\\TicketSale.csproj",
       "projectName": "TicketSale",
-      "projectPath": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\TicketSale.csproj",
-      "packagesPath": "C:\\Users\\iljaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\obj\\",
+      "projectPath": "C:\\Users\\Platon\\Desktop\\TicketSale\\TicketSale\\TicketSale.csproj",
+      "packagesPath": "C:\\Users\\Platon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Platon\\Desktop\\TicketSale\\TicketSale\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\iljaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Platon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

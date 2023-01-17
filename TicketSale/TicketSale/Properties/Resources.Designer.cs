@@ -63,6 +63,16 @@ namespace TicketSale.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4987871 {
+            get {
+                object obj = ResourceManager.GetObject("4987871", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _54481 {
             get {
                 object obj = ResourceManager.GetObject("54481", resourceCulture);
