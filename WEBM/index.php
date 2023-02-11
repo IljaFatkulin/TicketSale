@@ -70,9 +70,9 @@ $user_data = check_login($con);
         <br><br>
         <hr color="#B2BEB5" height="10px" width="98%">
 
-        &nbsp&nbsp <p class="myP"><a name="CONTACTS"><b>Download App:</b></a></p>
+        &nbsp&nbsp <p class="myP" name="CONTACTS"><b>Download App:</b></p>
 
-        <button class="btndow"><i class="fa fa-download"></i> Download</button>
+        <a href="https://drive.google.com/file/d/1cA8hde4mUajqsRTYrgEKfJ0t7CMqGWw2/view?usp=sharing"><button class="btndow"><i class="fa fa-download"></i>Download</button></a>
 
             </div>
             
