@@ -19,6 +19,8 @@ namespace TicketSale
             InitializeComponent();
             mostPopularTicket();
             showNews();
+            if (Authorization.status == "1")
+                button11.Visible = true;
             if (Authorization.admin == "1")
                 Admin();
             Design.SetRoundedShape(panel5, 50);
@@ -190,6 +192,20 @@ namespace TicketSale
             Aboutus a = new Aboutus();
             this.Hide();
             a.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            UserInstruction u = new UserInstruction();
+            this.Hide();
+            u.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            AdminInstruction u = new AdminInstruction();
+            this.Hide();
+            u.Show();
         }
     }
 }

@@ -1,0 +1,81 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textLV.Text" xml:space="preserve">
+    <value>Iesledzot administratora režīmu
+lai administrators iespējotu administratora režīmu, viņam jāiet uz savu profilu un jānoklikšķina uz pogas 'Administrators', pēc tam tiek parādīts logs ar uzrakstu ‘You are logget as Admin’ un profila parādās uzraksts 'Statuss: Admin’.
+Administratora funkcijas
+Lietotāji
+Administratoram augšējā navigācijas izvēlnē (navbar) ir dzeltena poga 'users', noklikšķinot uz kuras administrators atver logu ar visu reģistrēto lietotāju sarakstu kreisajā kolonnā. Ja sarakstā noklikšķināsiet uz lietotāja, tad labajā logā tiks parādīts izvēlētā lietotāja ID, lietotājvārds un statuss, kas nozīmē, kādas tiesības ir lietotājam. Izvēlētajajiem lietotājiem ir parāda arī visas tas biļetes. Biļete ir ar numuru (vai ID). Jūs varat noņemt biļetes no lietotāja (remove) un parādīt pašu biļeti (show) un pievienot lietotājam biļeti (Add), norādot biļetes ID. Lai izietu no lietotāju loga, nospiediet ‘Home’ pogu.
+Biļetes
+Administratoram ir iespēja pievienot biļetes (Add ticket). Lai to izdarītu, noklikšķinot uz pogas ‘add ticket’, jānorāda biļetes cena, izbraukšanas datums, ierašanās datums, izbraukšanas pilsēta un ierašanās pilsēta. Pēc datu ievadīšanas nospiediet pogu ‘Add’.
+Administrators var noņemt ‘Remove’ vai rediģēt  ‘Edit’ esošās biļetes.</value>
+  </data>
+  <data name="textEN.Text" xml:space="preserve">
+    <value>Enable Administrator Mode
+in order for the administrator to enable administrator mode, he needs to go to his profile and click on the 'Admin' button, after which a window pops up with the inscription 'You are logget in as Admin' and the inscription 'Status: Admin' appears in the profile.
+Administrator Features
+Users
+The administrator in the top navigation menu (navbar) has a yellow button 'users' by clicking on which the administrator opens a window with a list of all registered users in the column on the left. If you click on a user from the list, then the id of the selected user, his username, and status will be displayed in the right window, which means what rights the user has. The selected user also displays all his tickets. The ticket has a number or id. You can remove tickets from the user (remove) and display the ticket itself (show) and add a ticket to the user (Add) by specifying the ticket id. To exit the users window, press the Home button.
+Tickets
+The administrator has the ability to add tickets (Add ticket). To do this, by clicking on the add tickets button, you need to specify the ticket price, departure date, arrival date, departure city and arrival city. After entering the data, press the 'Add' button.
+Administrator can remove 'Remove' or edit
+  'Edit' existing tickets</value>
+  </data>
+</root>

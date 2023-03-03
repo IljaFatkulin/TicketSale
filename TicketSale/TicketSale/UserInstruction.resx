@@ -1,0 +1,98 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textLV.Text" xml:space="preserve">
+    <value>Programmā lietotājs varēs registreties . Lietotājs varēs iegādāties biļetes, izmantot filtrus, mainti paroli un vārdu un apskatīt jaunumus. Administrators var pievienot un atjaunināt ziņas un biļetes. Mainit lietotāja datus. Lietotāji varēs reģistrēties tikai mūsu vietnē.
+
+WEB Lapa
+Ieejot vietnē, lietotājam būs iespēja reģistrēties vai autorizeties. Pēc tam lietotājs tiks novirzīts uz galveno lapu, kurā būs informācija par mūsu uzņēmumu, saites uz sociālajiem tīkliem un programmas lejupielādes poga. Vietnē ir galerija ar attēliem un cilne par mums
+
+Registrācija/Login
+Atverot programmu, atvērsies autorizacija logs, kurā lietotājam būs jāpiesakās, viņa ievadītie dati tiks pārbaudīti datu bāzē un tiks novirzīts uz galveno lapu. Būs arī poga, lai dotos uz mūsu vietni
+
+
+Home
+Jaunumus būs iespējams apskatīt galvenajā lapā, būs pieejams arī logs ar populārāko biļeti
+
+Profile
+Profilā lietotājs varēs mainīt savu paroli un vārdu. Būs redzamas visas iegādātās biļetes un informācija par šīm biļetēm
+
+Buy Ticket
+Šajā lapā jūs redzēsiet visas biļetes, kuras varat iegādāties. Jūs varat izmantot filtrus augšējā labajā stūrī, varat filtrēt pilsētas un datumus. Noklikšķinot uz pogas Pirkt biļeti, tā parādīsies lietotāja profilā
+</value>
+  </data>
+  <data name="textEN.Text" xml:space="preserve">
+    <value>The user will be able to register in our program. The user will be able to buy tickets, use filters, change password and name and view news. Admin can add and update posts and tickets. Change user data. Users will only be able to register on our website.
+
+WEB Page
+When entering the site, the user will have the option to register or authorize. The user will then be redirected to the main page, which will contain information about our company, links to social networks and a button to download the program. The site has a gallery with images and an about us tab
+
+Registration/Login
+Upon opening the program, an authorization window will open, in which the user will have to log in, the data he entered will be checked in the database and he will be redirected to the main page. There will also be a button to go to our website
+
+Home
+News will be available on the main page, and a window with the most popular ticket will also be available
+
+Profile
+In the profile, the user will be able to change his password and name. All purchased tickets and information about those tickets will be visible
+
+Buy Ticket
+On this page you will see all the tickets you can buy. You can use the filters in the upper right corner, you can filter cities and dates. When you click the Buy Ticket button, it will appear in the user's profile</value>
+  </data>
+</root>
