@@ -11,7 +11,7 @@ $user_data = check_login($con);
 <!DOCTYPE html>
 <html>
 <head>
-      <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="index.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Page Title</title>
 <script>
@@ -98,15 +98,18 @@ $user_data = check_login($con);
                 <div><br><br>
 
                     <div class="botomnav-1">
-                <a font="10px">GLEK RP is not affiliated with or endorsed by Take-Two, Rockstar North Interactive, or any other rights holder.
+                    <a font="10px">GLEK RP is not affiliated with or endorsed by Take-Two, Rockstar North Interactive, or any other rights holder.
                     <br>All the used trademarks belong to their respective owners.</a>
                     </div>
                     <p class="botomnav-3">
                         <b>tiketsale@gmail.com • +371 24004321 (Weekdays 9-17 GMT+3)</b>
                     </div>
 
+                   
                     <div class="botomnav-2">
-                        <b>Copyright © TicketSale &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+                        <a href="instruction.html" class="btn2">Lietotāju instrukcija</a>
+                            <b>Copyright © TicketSale &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+                        </div>
                     </div>
 
                 </div><br><br><br>
@@ -116,6 +119,8 @@ $user_data = check_login($con);
                             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                           </div>
                         <h2>&nbsp&nbspLOGIN</h2>
+
+
                 
                         <?php if (isset($_GET['error'])) { ?>
                 
@@ -141,10 +146,6 @@ $user_data = check_login($con);
                           </div>
                      </form>
                     </div>
-    
-    
-    
-    
     
     
                     <script>
